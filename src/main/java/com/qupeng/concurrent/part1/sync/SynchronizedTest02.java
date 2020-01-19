@@ -2,7 +2,7 @@ package com.qupeng.concurrent.part1.sync;
 
 /**
  * 看这个程序的输出
- * @author Peter
+ * @author qupeng
  */
 public class SynchronizedTest02 {
 	

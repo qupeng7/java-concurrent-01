@@ -15,7 +15,7 @@ import java.util.concurrent.CyclicBarrier;
  * 
  * 这里使用CountDownLatch/CyclicBarrier/Semaphore
  * 都可以简便解决这个需求
- * @author Peter
+ * @author qupeng
  */
 public class Examination05 {
 	
@@ -74,7 +74,7 @@ public class Examination05 {
 /**
  * 加上volatile后使box的修改可以得到通知
  * 
- * @author Peter
+ * @author qupeng
  */
 class Box_5{
 	

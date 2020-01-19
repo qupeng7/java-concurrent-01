@@ -10,7 +10,7 @@ import java.util.List;
  * 写两个线程，线程1添加10个元素到容器中，
  * 线程2实现监控元素的个数，当个数到5个时，
  * 线程2给出提示并结束
- * @author Peter
+ * @author qupeng
  */
 public class Examination02 {
 
@@ -66,7 +66,7 @@ public class Examination02 {
  * 此时，线程2才break，这样就与原逻辑不符。
  * 
  * 2、用死循环的方式十分浪费CPU的资源
- * @author Peter
+ * @author qupeng
  */
 class Box_2{
 	

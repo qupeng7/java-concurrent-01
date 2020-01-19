@@ -4,7 +4,7 @@ package com.qupeng.concurrent.part1.sync;
 /**
  * 一个同步方法是否可以调用另一个同步方法在
  * 子类同步方法中调用父类的同步方法是否可行？
- * @author Peter
+ * @author qupeng
  */
 public class SynchronizedTest05 {
 	

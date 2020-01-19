@@ -3,7 +3,7 @@ package com.qupeng.concurrent.part2.vltl;
 /**
  * volatile关键字，不能保证原子性：
  * 不能保证修饰的变量的非原子性操作的原子性
- * @author Peter
+ * @author qupeng
  */
 public class VolatileTest02 {
 	

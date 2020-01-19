@@ -17,7 +17,7 @@ package com.qupeng.concurrent.part1.sync;
  * 结论：这样的做法会导致排错极为困难，会造成软件的
  * 可维护性和可靠性极差。
 
- * @author Peter
+ * @author qupeng
  */
 public class SynchronizedTest09{
 	

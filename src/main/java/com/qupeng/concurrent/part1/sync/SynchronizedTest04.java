@@ -7,7 +7,7 @@ package com.qupeng.concurrent.part1.sync;
  * 2、如果在同一个线程的不是同一把锁那么就需要看锁是否
  * 被其它线程持有了。
  * 3、不同线程的同一把锁，那么就会产生排队现象（同步）
- * @author Peter
+ * @author qupeng
  */
 public class SynchronizedTest04 {
 	

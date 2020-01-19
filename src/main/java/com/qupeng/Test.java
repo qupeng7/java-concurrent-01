@@ -1,7 +1,7 @@
 package com.qupeng;
 
 /**
- * @author Peter
+ * @author qupeng
  */
 public class Test {
 

@@ -28,7 +28,7 @@ import java.util.List;
  * 解决方案：
  * 线程1在nodify后必须要释放锁，那么就得wait了，
  * 然后线程2被唤醒后也必须再nodify通知线程2。
- * @author Peter
+ * @author qupeng
  */
 public class Examination04 {
 
@@ -89,7 +89,7 @@ public class Examination04 {
 /**
  * 加上volatile后使box的修改可以得到通知
  * 
- * @author Peter
+ * @author qupeng
  */
 class Box_4{
 	

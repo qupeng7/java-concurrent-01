@@ -11,7 +11,7 @@ package com.qupeng.concurrent.part1.sync;
  * 所以应该杜绝将锁定对象的引用去指向另外的对象，才能达到
  * 我们软件想要的结果。
 
- * @author Peter
+ * @author qupeng
  */
 public class SynchronizedTest08{
 	

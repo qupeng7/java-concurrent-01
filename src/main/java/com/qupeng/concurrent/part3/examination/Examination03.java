@@ -25,7 +25,7 @@ import java.util.List;
  * 所以只能等到线程1离开同步代码块时，线程2
  * 才能继续往下执行。
 
- * @author Peter
+ * @author qupeng
  */
 public class Examination03 {
 
@@ -82,7 +82,7 @@ public class Examination03 {
 /**
  * 加上volatile后使box的修改可以得到通知
  * 
- * @author Peter
+ * @author qupeng
  */
 class Box_3{
 	

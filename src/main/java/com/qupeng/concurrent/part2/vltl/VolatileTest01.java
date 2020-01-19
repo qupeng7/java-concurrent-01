@@ -4,7 +4,7 @@ package com.qupeng.concurrent.part2.vltl;
 /**
  * volatile关键字，用于修饰变量，是一个变量 在多个线程间是可见的
  * 在多个线程共享同一个变量的时候，可能会出现内存不可见的情况
- * @author Peter
+ * @author qupeng
  */
 public class VolatileTest01 {
 

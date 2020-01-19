@@ -10,7 +10,7 @@ import java.util.List;
  * 写两个线程，线程1添加10个元素到容器中，
  * 线程2实现监控元素的个数，当个数到5个时，
  * 线程2给出提示并结束
- * @author Peter
+ * @author qupeng
  */
 public class Examination01 {
 
@@ -54,7 +54,7 @@ public class Examination01 {
 
 /**
  * 这样实现有什么问题？
- * @author Peter
+ * @author qupeng
  */
 class Box_1{
 	

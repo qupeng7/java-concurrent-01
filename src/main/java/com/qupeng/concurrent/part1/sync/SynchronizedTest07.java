@@ -4,7 +4,7 @@ package com.qupeng.concurrent.part1.sync;
 /**
  * 从synchronized思考合理地设置锁的粒度
  * 尽量使synchronized的代码区域小，减小锁的粒度
- * @author Peter
+ * @author qupeng
  */
 public class SynchronizedTest07{
 

@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 不能保证修饰的变量的非原子性操作的原子性
  * 下面介绍一种比synchronized高效的实现变量原子性操作的
  * 实现方案——使用原子类进行原子操作。
- * @author Peter
+ * @author qupeng
  */
 public class VolatileTest03 {
 	

@@ -7,7 +7,7 @@ package com.qupeng.concurrent.part1.sync;
  * 而没有说去等到线程1执行syncMethod方法完毕后
  * 再去执行testMechod方法，这就说明同步方法中是可以调用非同步方法的
 
- * @author Peter
+ * @author qupeng
  */
 public class SynchronizedTest03 {
 	

@@ -12,7 +12,7 @@ package com.qupeng.concurrent.part1.sync;
  * 是不一致的。
  * 如果此时如果对a的操作处在一个事务中，那么就应该在出现异常的时候将
  * a的值进行重置（做事务的回滚）
- * @author Peter
+ * @author qupeng
  */
 public class SynchronizedTest06{
 

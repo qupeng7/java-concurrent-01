@@ -2,7 +2,7 @@ package com.qupeng.concurrent.part1.sync;
 
 /**
  * synchronized关键字 对某个对象加锁
- * @author Peter
+ * @author qupeng
  */
 public class SynchronizedTest01 {
 
@@ -38,6 +38,12 @@ public class SynchronizedTest01 {
 		count--;
 		System.out.println(Thread.currentThread().getName() + "：count=" + count);
 
+	}
+
+	public static void main(String[] args) {
+		SynchronizedTest01 synchronizedTest01=new SynchronizedTest01();
+		synchronizedTest01.test02();
+		synchronizedTest01.test03();
 	}
 
 }
