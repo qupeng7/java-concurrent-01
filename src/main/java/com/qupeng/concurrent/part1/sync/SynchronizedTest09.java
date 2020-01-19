@@ -24,9 +24,11 @@ public class SynchronizedTest09{
 	
 	static class Test{
 		
-		private String str_1="动力节点";
+		private String str_1="seven";
 		
-		private String str_2="动力节点";
+		private String str_2="seven";
+
+		private String str_3=new String("seven");
 		
 		private Integer itg_1=50;
 		
